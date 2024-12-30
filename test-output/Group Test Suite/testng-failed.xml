@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity Test(failed)">
+    <groups>
+      <run>
+        <include name="browserAndUrlLaunch"/>
+        <include name="Links"/>
+        <include name="textField"/>
+        <include name="checkBox"/>
+        <include name="dropDown"/>
+        <include name="datePicker"/>
+        <include name="windowHandling"/>
+        <include name="fileUploading"/>
+        <include name="webTable"/>
+        <include name="form"/>
+        <include name="hiddenElements"/>
+        <include name="downloadFileArea"/>
+        <include name="windowHandlings"/>
+        <include name="alert"/>
+        <include name="mouseBasedActions"/>
+        <include name="svgElementHandling"/>
+        <include name="scrollingDropDown"/>
+        <include name="brokenLinks"/>
+        <include name="shadowDomSendKeys"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.groupTest.GroupTest">
+        <methods>
+          <include name="hiddenElements"/>
+          <include name="nameField"/>
+          <include name="dragAndDrop"/>
+          <include name="slider"/>
+          <include name="svgElements"/>
+          <include name="mouseHover"/>
+          <include name="contextClick"/>
+          <include name="handleTheNewWindow"/>
+          <include name="shadowDomSendKeys"/>
+          <include name="browserClose"/>
+          <include name="promptAlert"/>
+          <include name="datePicker2"/>
+          <include name="browserLaunch"/>
+          <include name="datePicker1"/>
+          <include name="genderRadioButton"/>
+          <include name="handleTheNewTab1"/>
+          <include name="dropdown2"/>
+          <include name="confirmAlert"/>
+          <include name="dropdown1"/>
+          <include name="handleTheNewTab2"/>
+          <include name="dropdown3"/>
+          <include name="windowHandling1"/>
+          <include name="windowHandling2"/>
+          <include name="uploadFile2"/>
+          <include name="phoneNumberField"/>
+          <include name="uploadFile1"/>
+          <include name="form1"/>
+          <include name="eMailField"/>
+          <include name="form3"/>
+          <include name="scrollingDropDown"/>
+          <include name="webTable2"/>
+          <include name="downloadFileArea"/>
+          <include name="form2"/>
+          <include name="addressField"/>
+          <include name="simpleAlert"/>
+          <include name="daysCheckBox"/>
+          <include name="doubleClick"/>
+          <include name="webTable1"/>
+        </methods>
+      </class> <!-- org.groupTest.GroupTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Group Test Suite] -->

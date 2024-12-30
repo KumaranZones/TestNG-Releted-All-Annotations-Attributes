@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <parameter name="name11" value="Amutha"/>
+    <parameter name="address11" value="Salem"/>
+    <parameter name="phoneNumber11" value="7878787878"/>
+    <parameter name="browsers" value="edge"/>
+    <parameter name="eMail11" value="amutha@gmail.com"/>
+    <classes>
+      <class name="org.crossBrowserTesting.CrossBrowserTesting">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="parallelTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.crossBrowserTesting.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="name11" value="Karuppannan"/>
+    <parameter name="address11" value="Salem"/>
+    <parameter name="phoneNumber11" value="7878787878"/>
+    <parameter name="browsers" value="firefox"/>
+    <parameter name="eMail11" value="karuppannan@gmail.com"/>
+    <classes>
+      <class name="org.crossBrowserTesting.CrossBrowserTesting">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="parallelTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.crossBrowserTesting.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

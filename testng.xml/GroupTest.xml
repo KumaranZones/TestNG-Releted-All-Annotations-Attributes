@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="browserAndUrlLaunch"></include>
+				<include name="Links"></include>
+				<include name="textField"></include>
+				<include name="checkBox"></include>
+				<include name="dropDown"></include>
+				<include name="datePicker"></include>
+				<include name="windowHandling"></include>
+				<include name="fileUploading"></include>
+				<include name="webTable"></include>
+				<include name="form"></include>
+				<include name="hiddenElements"></include>
+				<include name="downloadFileArea"></include>
+				<include name="windowHandlings"></include>
+				<include name="alert"></include>
+				<include name="mouseBasedActions"></include>
+				<include name="svgElementHandling"></include>
+				<include name="scrollingDropDown"></include>
+				<include name="brokenLinks"></include>
+				<include name="shadowDomSendKeys"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="org.groupTest.GroupTest">
+			</class>
+		</classes>
+	</test>
+</suite>

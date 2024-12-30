@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test1">
+		<parameter name="name11" value="Kumaran"></parameter>
+		<parameter name="eMail11" value="kumaran@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test2">
+		<parameter name="name11" value="Karuppannan"></parameter>
+		<parameter name="eMail11" value="karuppannan@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test3">
+		<parameter name="name11" value="Amutha"></parameter>
+		<parameter name="eMail11" value="amutha@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test4">
+		<parameter name="name11" value="Hema"></parameter>
+		<parameter name="eMail11" value="hema@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test5">
+		<parameter name="name11" value="Karthick"></parameter>
+		<parameter name="eMail11" value="karthick@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test6">
+		<parameter name="name11" value="Harshanth"></parameter>
+		<parameter name="eMail11" value="harsh@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test7">
+		<parameter name="name11" value="Rithvik"></parameter>
+		<parameter name="eMail11" value="rithu@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7867564534"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.passMultipleSetOfDataUsingPatameters.PassMultipleSetOfDataUsingPatameters"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="org.includeExclude.IncludeAndExclude">
+				<methods>
+					<include name="urlLaunch"></include>
+					<include name="nameField"></include>
+					<include name="eMailField"></include>
+					<include name="phoneNumberField"></include>
+					<include name="addressField"></include>
+					<exclude name="genderRadioButton"></exclude>
+					<exclude name="daysCheckBox"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

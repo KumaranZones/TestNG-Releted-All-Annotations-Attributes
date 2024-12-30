@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test thread-count="5" parallel="tests" name="Test1">
+		<parameter name="browsers" value="chrome"></parameter>
+		<parameter name="name11" value="Kumaran"></parameter>
+		<parameter name="eMail11" value="kumaran@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7878787878"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.crossBrowserTesting.CrossBrowserTesting"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" parallel="tests" name="Test2">
+		<parameter name="browsers" value="firefox"></parameter>
+		<parameter name="name11" value="Karuppannan"></parameter>
+		<parameter name="eMail11" value="karuppannan@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7878787878"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.crossBrowserTesting.CrossBrowserTesting"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" parallel="tests" name="Test3">
+		<parameter name="browsers" value="edge"></parameter>
+		<parameter name="name11" value="Amutha"></parameter>
+		<parameter name="eMail11" value="amutha@gmail.com"></parameter>
+		<parameter name="phoneNumber11" value="7878787878"></parameter>
+		<parameter name="address11" value="Salem"></parameter>
+		<classes>
+			<class name="org.crossBrowserTesting.CrossBrowserTesting"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
